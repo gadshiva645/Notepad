@@ -44,3 +44,45 @@ div.col-sm-10.md-10.lg-10.d-flex.justify-content-start {
     background: rgba(211,211,211,0.8); 
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
 }
+
+
+
+
+/* Div for header */
+.row.notepad {
+  padding-top: 5em;
+  display: flex;
+  justify-content: center;
+}
+
+/* DEMO-SPECIFIC STYLES */
+.row h1 {
+  padding-top: 20px;
+  color: #fff;
+  font-size: 4em;
+  font-family: monospace;
+  overflow: hidden;
+  border-right: .15em solid orange; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+    justify-content: center;
+    display:flex;
+
+  animation: 
+    typing 3s steps(30, end),
+    blink-caret .5s step-end infinite;
+
+}
+
+/*Typing animation*/
+@keyframes typing {
+  from { width: 0 }
+  to { width: 30% }
+}
+
+/*typewriter cursor*/
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white }
+}
