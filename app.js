@@ -4,7 +4,7 @@
 const { Pool, Client } = require('pg')
 
 //create connectionString used connect to db
-const connectionString = 'postgresql://postgres:Superman35770@localhost:5432/documentDB'
+const connectionString = 'postgresql://postgres:password@localhost:5432/documentDB'
 
 //create client with connectionString
 const client = new Client({
